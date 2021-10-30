@@ -13,6 +13,10 @@ export const WhiteButton = styled.button`
   align-items: center;
   justify-content: space-between;
   border-radius: 5px;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
   & p {
     padding-left: 5px;
   }
@@ -30,6 +34,10 @@ export const BlueButton = styled.button`
   align-items: center;
   justify-content: space-between;
   border-radius: 5px;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
   & p {
     padding-left: 5px;
   }
