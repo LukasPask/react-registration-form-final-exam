@@ -25,12 +25,13 @@ export const ModalWrapper = styled.div`
 
 export const StyledModal = styled.div`
   display: flex;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 2px solid #bc7878;
 `;
 
 export const StyledLeftSide = styled.div`
-  border-radius: 20px 0 0 20px;
+  width: 50%;
+  border-radius: 10px 0 0 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,15 +50,16 @@ export const StyledImageText = styled.p`
   text-align: center;
   font-size: 18px;
   font-weight: 500;
-  width: 52%;
+  width: 55%;
 `;
 export const StyledImg = styled.img`
   height: 450px;
 `;
 
 export const StyledRightSide = styled.div`
+  width: 50%;
   background-color: var(--white-color);
-  border-radius: 0 20px 20px 0;
+  border-radius: 0 10px 10px 0;
   padding: 50px;
   display: flex;
   flex-direction: column;

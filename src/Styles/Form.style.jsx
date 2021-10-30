@@ -17,6 +17,7 @@ export const StyledInputBox = styled.div`
   margin-top: 5px;
   padding: 8px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,6 +29,7 @@ export const StyledInput = styled.input`
   font-size: 16px;
   width: 95%;
   padding: 0 15px;
+
   &[type='submit'] {
     margin-top: 20px;
     background-color: var(--primary-color);
