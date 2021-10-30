@@ -35,6 +35,7 @@ export const StyledInput = styled.input`
     font-weight: 600;
     width: 100%;
     padding: 10px;
+    border-radius: 5px;
     &:hover {
       cursor: pointer;
       opacity: 0.8;
